@@ -102,7 +102,7 @@ async def start_(client: Client, message: Message):
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/78827dfb6a49b1a8ff0f3.jpg",
-        caption=f"""Programmer [EITHON](https://t.me/YY8GG) 𖡼\Follow our news 𖡼""",
+        caption=f"""Programmer [EITHON](https://t.me/YY8GG) 𖡼 \ Follow our news 𖡼""",
         reply_markup=InlineKeyboardMarkup(
          [
             [
